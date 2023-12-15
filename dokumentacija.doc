@@ -1,0 +1,32 @@
+1. Vezbe
+
+--Glavni zadatak je uspostaviti komunikaciju preko fieldbusa
+
+3 vrste komunikacije:
+	simpleks- komunikacija u jednom smeru (TV)
+	half-duplex- komunikacija u dva smera ali kada salje drugi moze samo da prima(Toki-Voki)
+	full-duplex- komunikacija u oba smera istovremeno(Telefon)
+	[RS232, RS422, RS485]
+
+
+--RS485- ekstenzija na jednoj zici ima vise njih koji su prijemnici i predajnici, half dupleks
+	
+	 Pin-out:
+
+	 RO – Receiver out
+	 RE – Receiver enable (enabled when this pin is LOW)
+	 DE – Driver enable (enabled when this pin is HIGH)
+	 DI – Driver in (the transmitter pin)
+	 GND – Ground (0V)
+	 A – Connect to pin A of the other 485 IC
+	 B – Connect to pin B of the other 485 IC
+	 Vcc – Power, in my case +5V
+ 	 TTL Naponski nivo [0,5]
+
+--RS485- donglica za debagovanje i laksu komunikaciju ima USB ulaz koji moze da ide u linux
+
+--Predefinisani profili ,probati naci biblioteku za rpi
+
+
+
+ 
