@@ -35,4 +35,25 @@ https://ktechnics.com/product/max485-rs-485-ttl-to-rs485-max485csa-converter-mod
 https://chat.openai.com/c/0ecd3b31-0373-4a75-af3a-02abe2148aef
 https://en.wikipedia.org/wiki/Fieldbus
 
-**https://circuitdigest.com/microcontroller-projects/rs-485-modbus-serial-communication-with-arduino-as-master**
+
+
+linkovi druge vezbe:
+Arduino i RS485 komunikacija preko protoboarda
+**https://circuitdigest.com/microcontroller-projects/rs-485-modbus-serial-communication-with-arduino-as-master** 
+Modbus kodovi
+https://www.arduinolibraries.info/libraries/modbus-rtu_slave_rs485
+Arduino sajt -> linkovi MODBUS
+https://docs.arduino.cc/learn/communication/modbus
+Arduino sajt -> linkovi RS485
+https://www.arduino.cc/reference/en/libraries/arduinors485/
+Git arudino RS485
+https://github.com/arduino-libraries/ArduinoRS485
+
+RPI i RS485
+https://forums.raspberrypi.com/viewtopic.php?t=288284
+https://libmodbus.org/
+https://github.com/stephane/libmodbus
+https://forums.raspberrypi.com/viewtopic.php?t=214692
+
+
+
