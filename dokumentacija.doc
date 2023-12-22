@@ -36,6 +36,16 @@ https://chat.openai.com/c/0ecd3b31-0373-4a75-af3a-02abe2148aef
 https://en.wikipedia.org/wiki/Fieldbus
 
 
+2.Vezbe
+
+--Danas smo pokusali da nesto vise istrazimo modbus. Modbus je industrijski protokol komunikacije. Ovaj protokol omogućava razmenu informacija između uređaja povezanih u industrijskom okruženju.
+  Modbus je razvijen devedesetih godina prošlog veka i postao je široko korišćen standard u industrijskim aplikacijama.	
+  Modbus se može koristiti preko serijskih veza (RS-232, RS-485) ili preko Ethernet mreže.
+  RS-485 je često preferirana u industrijskim okruženjima zbog svoje otpornosti na buku i sposobnosti za komunikaciju na dužim razdaljinama. Mi cemo raditi putem RS-485 serijske veze.
+
+--Preuzeli smo biblioteku libmodbus.
+
+
 
 linkovi druge vezbe:
 Arduino i RS485 komunikacija preko protoboarda
@@ -54,6 +64,11 @@ https://forums.raspberrypi.com/viewtopic.php?t=288284
 https://libmodbus.org/
 https://github.com/stephane/libmodbus
 https://forums.raspberrypi.com/viewtopic.php?t=214692
+
+Izvori
+https://www.bing.com/?/ai
+https://chat.openai.com/c/2870ff51-7187-4b31-936e-6cc78d58a84b
+
 
 
 
