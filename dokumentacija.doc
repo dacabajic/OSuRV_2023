@@ -44,9 +44,8 @@ https://en.wikipedia.org/wiki/Fieldbus
   RS-485 je često preferirana u industrijskim okruženjima zbog svoje otpornosti na buku i sposobnosti za komunikaciju na dužim razdaljinama. Mi cemo raditi putem RS-485 serijske veze.
 
 --Preuzeli smo biblioteku libmodbus.
-
---
-
+--Kada smo sklinuli bibloteku, sada zelimo da ispisemo kod za komunikaciju izmedju RPi i RS485 donglice
+--Nasli smo i biblioteke za komunikaciju Arduina i RS485 Usba
 
 linkovi druge vezbe:
 Arduino i RS485 komunikacija preko protoboarda
