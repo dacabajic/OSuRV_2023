@@ -70,6 +70,16 @@ https://forums.raspberrypi.com/viewtopic.php?t=214692 -> biblioteka koju smo nas
 
 https://www.bing.com/?/ai
 
+3.Vezbe
+
+--Na ovim vezbama zadatak nam je da testiramo modbus projekat koji smo nasli na github-u.
+
+--https://www.modbus.org/
+
+--komanda za instlaciju
+sudo apt update
+sudo apt install libmodbus-dev
+
 
 
 
