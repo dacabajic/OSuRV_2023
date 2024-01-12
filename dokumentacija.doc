@@ -72,7 +72,8 @@ https://www.bing.com/?/ai
 
 3.Vezbe
 
---Na ovim vezbama zadatak nam je da testiramo modbus projekat koji smo nasli na github-u.
+--Na ovim vezbama smo pronasli vec iskucane biblioteke i .c fajlove. Pull-ovali smo projekat na rpi pa smo dodali biblioteke i .c fajlove u folder modbus. 
+  Push-ovali smo ih na git u repozitorijum modbus. Preostaje nam da testiramo fajlove i uspostavimo komunikaciju putem modbus magistrale.
 
 --https://www.modbus.org/
 
