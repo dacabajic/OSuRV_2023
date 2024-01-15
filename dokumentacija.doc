@@ -111,6 +111,7 @@ dodatni termin
     • How on RPi
         ◦ Find out over Google:
             ▪ Google kw: MAX485 RPi C source code example
+		https://github.com/svs1370/libmodbus-rpi/commit/0612f29c3a44c16fada76c627fa49732ae0fd122#diff-49473dca262eeab3b4a43002adb08b4db31020d190caaad1594b47f1d5daa810
         ◦ Find out over SW:
             ▪ Read code of libmodbus
             ▪ modbus-rtu.c: modbus_new_rtu()
