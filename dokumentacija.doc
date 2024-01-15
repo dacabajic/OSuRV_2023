@@ -1,4 +1,4 @@
-1. Vezbe
+﻿1. Vezbe
 
 --Glavni zadatak je uspostaviti komunikaciju preko fieldbusa
 
@@ -59,10 +59,18 @@ https://www.arduino.cc/reference/en/libraries/arduinors485/
 Git arudino RS485
 https://github.com/arduino-libraries/ArduinoRS485
 
-RPI i RS485
-https://forums.raspberrypi.com/viewtopic.php?t=288284
-https://libmodbus.org/
-https://github.com/stephane/libmodbus
+      
+    • google kw?: RPI i RS485
+        ◦ https://forums.raspberrypi.com/viewtopic.php?t=288284
+        ◦ https://libmodbus.org/
+        ◦ https://github.com/stephane/libmodbus
+            ▪ https://github.com/stephane/libmodbus/blob/master/tests/unit-test-server.c
+                • RTU over /dev/ttyUSB0
+                    ◦ That is Modbus over RS485
+                        ▪ TCL is over Ethernet
+        ◦ sudo apt install libmodbus-dev
+            ▪ dal je to to isto?
+          
 
 https://forums.raspberrypi.com/viewtopic.php?t=214692 -> biblioteka koju smo nasli sa ovog sajta
 
@@ -77,11 +85,42 @@ https://www.bing.com/?/ai
 
 --https://www.modbus.org/
 
---komanda za instlaciju
-sudo apt update
-sudo apt install libmodbus-dev
 
 
 
 
+
+dodatni termin
+
+    • Another place to buy:
+		https://malina314.com/proizvod/usb-na-rs485-industrijski-konvertor/
+    • lsusb
+        ◦ It is CH340
+        ◦ Google kw: usb to rs485 ch340 schematic
+            ▪ https://i.stack.imgur.com/zBwJr.png
+                • https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1487-MAX491.pdf
+                • R232 dictate direction?
+                    ◦ https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF
+                    ◦ It is input. Need Reverse Engineering of dongle
+    • Google kw: usb to rs485 ch340 sw example
+        ◦ https://www.youtube.com/watch?v=-U0k_hnxx8I
+    • Google kw: usb to rs485 ch340 C code example
+        ◦ https://www.esp32.com/viewtopic.php?t=17485
+    • Found how on PC
+        ◦ ← google kw?: RPI i RS485
+    • How on RPi
+        ◦ Find out over Google:
+            ▪ Google kw: MAX485 RPi C source code example
+        ◦ Find out over SW:
+            ▪ Read code of libmodbus
+            ▪ modbus-rtu.c: modbus_new_rtu()
+                • Maybe use RTS pin to select direction
+                    ◦ Depend on HAVE_DECL_TIOCM_RTS
+                        ▪ Make simple C app to check if we have this define
+                            • +Write Makefile with link flags
+                            • Nothing
+                    ◦ Compile source code to see what is default
+        ◦ Find out over HW:
+            ▪ Open dongle and Reverse Engineer where DE and RE goes on CH340 IC
+        ◦ Do we have on RPi: sudo apt install libmodbus-dev
 
